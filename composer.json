@@ -1,0 +1,33 @@
+{
+    "name": "heimrichhannot/contao-field_value_copier",
+    "description":"This simple module offers an input type for showing a giving the user the opportunity to copy a certain field value from another record. This is useful for fields that are very complex to configure.",
+    "keywords":["contao", "field", "value", "copy", "copier", "inputtype", "input", "type"],
+    "type": "contao-module",
+    "homepage":"https://bitbucket.org/heimrichhannot/contao-field_value_copier",
+    "license":"LGPL-3.0+",
+    "authors":[
+        {
+            "name":"Heimrich & Hannot",
+            "email":"digitales@heimrich-hannot.de",
+            "homepage":"http://www.heimrich-hannot.de",
+            "role":"Developer"
+        }
+    ],
+    "support":{
+        "issues":"https://bitbucket.org/heimrichhannot/contao-field_value_copier/issues"
+    },
+    "require": {
+        "php": "~5.6 || ^7.0",
+        "contao/core": ">=3.5,<4-dev"
+    },
+    "autoload": {
+        "classmap": [""]
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "": "system/modules/field_value_copier"
+            }
+        }
+    }
+}
