@@ -30,7 +30,12 @@
 })(jQuery);
 
 $(document).addEvent('domready', function() {
-    var $select = $('ctrl_filterCopier');
+    var $select = $$('.field-value-copier select');
+
+    if ($select.length <= 0)
+        return;
+
+    $select = $select[0];
 
     function checkSelect($select) {
         if ($select.selectedIndex <= 0)
