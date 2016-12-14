@@ -1,4 +1,4 @@
-<div class="field-value-copier<?php if ($this->class): ?> <?= $this->class ?>"<?php endif; ?>">
+<div class="field-value-copier clr<?php if ($this->class): ?> <?= $this->class ?>"<?php endif; ?>">
     <?= $this->fieldValueCopier->parse(); ?>
 
     <a class="load tl_submit" href="<?= \Environment::get('request') ?>" data-confirm="<?= $GLOBALS['TL_LANG']['MSC']['tl_field_value_copier']['loadConfirm'] ?>">
